@@ -1,0 +1,59 @@
+:root {
+  --mainMenuColor: #7510f7;
+  --secondColor: #141c3a;
+  --terceiraColor: #e4e3e3;
+  --fontColor: #524e55;
+}
+header {
+}
+.container {
+  /* position: fixed; */
+  width: 100%;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: var(--terceiraColor);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  padding: 20px 40px;
+}
+.container .logo {
+  color: var(--mainMenuColor);
+}
+.container nav,
+a {
+  color: var(--fontColor);
+  /*  padding: 8px 8px; */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.container nav a:hover {
+  color: var(--mainColor);
+}
+.container nav a:focus {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+ */

@@ -1,0 +1,18 @@
+:root {
+  --mainBtnColor: #7510f7;
+  --Teste: #f77810;
+  --secondColor: #141c3a;
+  --terceiraColor: #fff;
+}
+button {
+  border: none;
+  padding: 8px 64px;
+  text-align: center;
+  background: var(--mainBtnColor);
+  color: var(--terceiraColor);
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
