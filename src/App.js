@@ -15,7 +15,7 @@ function App() {
       </header>
       <div className="container ">
         <ul>
-       {/*    <Item>
+          <Item>
             Januária
           </Item>
           <Item>
@@ -23,7 +23,7 @@ function App() {
           </Item>
           <Item>
             Montes Claros
-          </Item> */}
+          </Item>
         </ul>
         <Card 
             titulo='Car Store' 

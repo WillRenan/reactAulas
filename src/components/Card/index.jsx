@@ -1,49 +1,50 @@
 /* import React from 'react'; */
-import { useState } from "react"
+import { useState } from "react";
+import Btn from '../Btn';
+import './index.css'
+
+
 const Card = (props)=>{
-
   const [valor, setValor] = useState(0);
-
- /*  const Adicionar = () =>{
-    setValor(valor+1);
-  } */
-
   function Adicionar (){
     setValor(valor + 1);
   }
   function Remover (){
-
-    
       setValor(valor - 1);
- 
-    
   }
-
-
+  function Zerar (){
+      setValor(0);
+  }
   let estilo ={
     width: '18rem',
     color: '#1e1e1e',
-    
+    fontSize: '32px' 
   }
+
   return(
-  
       <div className="card" style={estilo}>
         <div className="card-body">
           <h5 className="card-title">{valor}</h5>
-          <button
-             type="button" 
-             className="btn btn-danger"
-             onClick = {Remover}
+          <Btn
+          
+            className="btn btn-danger  teste"
+            onClick = {Remover}
           >
-          -
-          </button>
-          <button 
-            type="button" 
-            className="btn btn-primary"
+            -
+          </Btn>
+          <Btn
+             className="btn btn-success teste"
+            onClick = {Zerar}
+          >
+           -0-
+          </Btn>
+
+          <Btn
+            className="btn btn-primary  teste"
             onClick = {Adicionar}
           >
             +
-          </button>
+          </Btn>
           
         </div>
       </div>
