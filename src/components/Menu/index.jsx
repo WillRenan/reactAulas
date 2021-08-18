@@ -15,11 +15,11 @@ const Menu = () =>{
           </div>
           <nav>
             
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contatos</a>
-            <a href="#">Entrar</a>
-            <a href="#">Perfil</a>
+            <a href="/">Home</a>
+            <a href="/">Sobre</a>
+            <a href="/">Contatos</a>
+            <a href="/">Entrar</a>
+            <a href="/">Perfil</a>
          
             <Button name="LOGAR" onClick={()=>{soma(10,20)}}/>
             {/* <Button name="Sair" onClick={()=>{soma(20,20)}}/> */}
