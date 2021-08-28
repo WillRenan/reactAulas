@@ -18,11 +18,11 @@ const Card = (props)=>{
   let estilo ={
     width: '18rem',
     color: '#1e1e1e',
-    fontSize: '32px' 
+  
   }
 
   return(
-      <div className="card" style={estilo}>
+    
         <div className="card-body">
           <h5 className="card-title">{valor}</h5>
           <Btn
@@ -47,7 +47,7 @@ const Card = (props)=>{
           </Btn>
           
         </div>
-      </div>
+      
  
   )
 }
